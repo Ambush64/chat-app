@@ -1,0 +1,27 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server",
+    "test": "jest"
+  },
+  "author": "Brad Traversy",
+  "license": "MIT",
+  "dependencies": {
+    "@socket.io/redis-adapter": "^7.1.0",
+    "dotenv": "^14.3.2",
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "redis": "^4.0.2",
+    "socket.io": "^4.4.1",
+    "supertest": "^6.3.4",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^2.0.2"
+  }
+}
